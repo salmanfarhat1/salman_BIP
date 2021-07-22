@@ -1,0 +1,141 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>salmanfarhat</groupId>
+  <artifactId>salmanfarhat_bip</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+    	<dependencies>
+
+	<dependency>
+	    <groupId>log4j</groupId>
+	    <artifactId>log4j</artifactId>
+	    <version>1.2.17</version>
+	</dependency>
+
+	  <dependency>
+	    <groupId>com.typesafe.akka</groupId>
+	    <artifactId>akka-actor_2.11</artifactId>
+	    <version>2.3.14</version>
+	</dependency>
+
+  	<dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+    
+      <dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-api</artifactId>
+	    <version>2.0.0-alpha1</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-simple</artifactId>
+	    <version>2.0.0-alpha1</version>
+	</dependency>
+		
+		
+    
+		<dependency>
+			<groupId>my.group</groupId>
+			<artifactId>org.javabip.api</artifactId>
+			<version>a.b</version>
+			<scope>system</scope>
+			<systemPath>/Users/salmanfarhat/eclipse-workspace/Translate_FM2JavaBIP/src/main/lib/org.javabip.api-0.1.0-SNAPSHOT.jar</systemPath>
+		</dependency>
+		
+		
+		
+		<dependency>
+			<groupId>my.group</groupId>
+			<artifactId>org.javabip.engine.api</artifactId>
+			<version>a.b</version>
+			<scope>system</scope>
+			<systemPath>/Users/salmanfarhat/eclipse-workspace/Translate_FM2JavaBIP/src/main/lib/org.javabip.engine.api-0.1.0-SNAPSHOT.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>my.group</groupId>
+			<artifactId>org.javabip.engine.coordinator</artifactId>
+			<version>a.b</version>
+			<scope>system</scope>
+			<systemPath>/Users/salmanfarhat/eclipse-workspace/Translate_FM2JavaBIP/src/main/lib/org.javabip.engine.coordinator-0.1.0-SNAPSHOT.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>my.group</groupId>
+			<artifactId>org.javabip.engine.factory</artifactId>
+			<version>a.b</version>
+			<scope>system</scope>
+			<systemPath>/Users/salmanfarhat/eclipse-workspace/Translate_FM2JavaBIP/src/main/lib/org.javabip.engine.factory-0.1.0-SNAPSHOT.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>my.group</groupId>
+			<artifactId>org.javabip.executor</artifactId>
+			<version>a.b</version>
+			<scope>system</scope>
+			<systemPath>/Users/salmanfarhat/eclipse-workspace/Translate_FM2JavaBIP/src/main/lib/org.javabip.executor-0.1.0-SNAPSHOT.jar</systemPath>
+			
+		</dependency>
+		<dependency>
+			<groupId>my.group</groupId>
+			<artifactId>org.javabip.glue</artifactId>
+			<version>a.b</version>
+			<scope>system</scope>
+			<systemPath>/Users/salmanfarhat/eclipse-workspace/Translate_FM2JavaBIP/src/main/lib/org.javabip.glue-0.1.0-SNAPSHOT.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>my.group</groupId>
+			<artifactId>org.javabip.spec.examples</artifactId>
+			<version>a.b</version>
+			<scope>system</scope>
+			<systemPath>/Users/salmanfarhat/eclipse-workspace/Translate_FM2JavaBIP/src/main/lib/org.javabip.spec.examples-0.1.0-SNAPSHOT.jar</systemPath>
+		</dependency>
+		
+		<dependency>
+			<groupId>my.group</groupId>
+			<artifactId>javabdd</artifactId>
+			<version>a.b</version>
+			<scope>system</scope>
+			<systemPath>/Users/salmanfarhat/eclipse-workspace/Translate_FM2JavaBIP/src/main/lib/javabdd-1.0b2.jar</systemPath>
+		</dependency>
+		
+		
+		<dependency>
+			<groupId>my.group</groupId>
+			<artifactId>org.javabip.engine.bdd</artifactId>
+			<version>a.b</version>
+			<scope>system</scope>
+			<systemPath>/Users/salmanfarhat/eclipse-workspace/Translate_FM2JavaBIP/src/main/lib/org.javabip.engine.bdd-0.1.0-SNAPSHOT.jar</systemPath>
+		</dependency>
+		
+	
+
+		<dependency>
+			<groupId>my.group</groupId>
+			<artifactId>akka-osgi</artifactId>
+			<version>a.b</version>
+			<scope>system</scope>
+			<systemPath>/Users/salmanfarhat/eclipse-workspace/Translate_FM2JavaBIP/src/main/lib/akka-osgi_2.11-2.3.9.jar</systemPath>
+		</dependency>
+		
+		<dependency>
+			<groupId>my.group</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>a.b</version>
+			<scope>system</scope>
+			<systemPath>/Users/salmanfarhat/eclipse-workspace/Translate_FM2JavaBIP/src/main/lib/scala-library-2.3.1.jar</systemPath>
+		</dependency>
+		
+	
+		<dependency>
+    <groupId>org.antlr</groupId>
+    <artifactId>antlr4-runtime</artifactId>
+    <version>4.0</version>
+</dependency>
+	
+		
+		
+  	</dependencies>
+  	
+</project>
